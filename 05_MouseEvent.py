@@ -30,7 +30,7 @@ def click_event(event, x, y, flags, params):
 
     # back to original image on click release
     if event == cv2.EVENT_LBUTTONUP or event == cv2.EVENT_RBUTTONUP:
-        img[::] = org
+        img[:] = org
         cv2.imshow('image', img)
 
 
