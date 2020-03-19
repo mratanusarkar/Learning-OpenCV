@@ -1,3 +1,6 @@
+# TODO
+# function source: "https://stackoverflow.com/questions/46864915/python-add-audio-to-video-opencv"
+
 import cv2
 from ffpyplayer.player import MediaPlayer
 
