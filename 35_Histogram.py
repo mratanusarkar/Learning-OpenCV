@@ -10,6 +10,7 @@ img_add_white = cv2.rectangle(img_add_white, (0, 100), (200, 200), 255, -1)
 img_add_gray = img_add_white.copy()
 img_add_gray = cv2.rectangle(img_add_gray, (0, 50), (100, 100), 127, -1)
 
+img_grad = cv2.imread("res/gradient.png", cv2.IMREAD_GRAYSCALE)
 img_lena_gray = cv2.imread("res/lena.jpg", cv2.IMREAD_GRAYSCALE)
 img_lena = plt.imread("res/lena.jpg", -1)
 img_messi = plt.imread("res/messi5.jpg", -1)
@@ -24,6 +25,7 @@ images = [
     img_black,
     img_add_white,
     img_add_gray,
+    img_grad,
     img_lena_gray,
     img_r,
     img_g,
@@ -37,6 +39,7 @@ titles = [
     str(img_black.shape) + " Black - 2D",
     str(img_add_white.shape) + " 1/2 Black 1/2 White - 2D",
     str(img_add_gray.shape) + " Black, White, Gray - 2D",
+    str(img_grad.shape) + " Gradient Image, Gray - 2D",
     str(img_lena_gray.shape) + " lena.jpg Grayscale - 2D",
     str(img_r.shape) + " Red template - 3D",
     str(img_g.shape) + " Green template - 3D",
