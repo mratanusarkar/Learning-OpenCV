@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('res/vtest.avi')
+cap = cv2.VideoCapture('../res/vtest.avi')
 
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3,3))
 

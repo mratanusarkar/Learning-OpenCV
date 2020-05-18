@@ -9,10 +9,10 @@ def click_event(event, x, y, flags, params):
         points.append((x, y))
         if len(points) >= 2:
             cv2.line(img, points[-2], points[-1], (255, 0, 0), 3)
-        cv2.imshow('image', img)
+        cv2.imshow('../image', img)
 
 
-# img = cv2.imread("res/lena.jpg", -1)
+# img = cv2.imread("../res/lena.jpg", -1)
 img = np.zeros((720, 720, 3), np.uint8)
 
 points = []

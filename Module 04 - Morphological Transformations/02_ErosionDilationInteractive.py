@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 
 # Note: Always try to keep foreground in white
-imgPath = "res/shapes.jpg"
-# imgPath = "res/smarties.png"
-# imgPath = "res/salt_and_pepper_noise_zebra.png"
+imgPath = "../res/shapes.jpg"
+# imgPath = "../res/smarties.png"
+# imgPath = "../res/salt_and_pepper_noise_zebra.png"
 
 
 def nothing(x):

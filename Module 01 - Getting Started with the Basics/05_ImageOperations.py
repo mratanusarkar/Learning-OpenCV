@@ -1,7 +1,7 @@
 import cv2
 
-img = cv2.imread("res/messi5.jpg", -1)
-logo = cv2.imread("res/opencv-logo.png")
+img = cv2.imread("../res/messi5.jpg", -1)
+logo = cv2.imread("../res/opencv-logo.png")
 
 print(img.shape)    # return a tuple with no of rows, columns and channels
 print(img.size)     # returns total number of pixels

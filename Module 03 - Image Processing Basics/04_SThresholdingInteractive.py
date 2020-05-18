@@ -1,7 +1,7 @@
 import cv2
 
 # enter the path to the image
-imgPath = "res/sudoku.png"  # "res/gradient.png"
+imgPath = "../res/sudoku.png"  # "res/gradient.png"
 
 
 def nothing(x):

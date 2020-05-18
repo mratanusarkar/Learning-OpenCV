@@ -34,7 +34,7 @@ def click_event(event, x, y, flags, params):
         cv2.imshow('image', img)
 
 
-img = cv2.imread("res/lena.jpg", -1)
+img = cv2.imread("../res/lena.jpg", -1)
 org = np.copy(img)
 # img = np.zeros((720, 720, 3), np.uint8)
 cv2.imshow('image', img)

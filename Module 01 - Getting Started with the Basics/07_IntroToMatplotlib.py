@@ -2,7 +2,7 @@ import cv2
 from matplotlib import pyplot as plt
 
 # read an image
-img = cv2.imread("res/lena.jpg", -1)
+img = cv2.imread("../res/lena.jpg", -1)
 
 # cv2 way (in BGR)
 cv2.imshow("image", img)

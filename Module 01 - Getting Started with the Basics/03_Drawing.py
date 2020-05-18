@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# image = cv2.imread("res/lena.jpg", 1)
+# image = cv2.imread("../res/lena.jpg", 1)
 image = np.zeros([512, 512, 3], np.uint8)
 
 # overwrite the image with a line

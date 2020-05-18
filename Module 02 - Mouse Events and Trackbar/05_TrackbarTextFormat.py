@@ -5,7 +5,7 @@ def nothing(x):
     print(x)
 
 
-img_path = "res/lena.jpg"
+img_path = "../res/lena.jpg"
 X_max, Y_max, _ = cv2.imread(img_path).shape
 cv2.namedWindow("image")
 

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("res/lena.jpg")
+img = cv2.imread("../res/lena.jpg")
 levels = 3
 res_up = [img]
 res_down = [img]

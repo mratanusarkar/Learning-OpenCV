@@ -10,15 +10,15 @@ img_add_white = cv2.rectangle(img_add_white, (0, 100), (200, 200), 255, -1)
 img_add_gray = img_add_white.copy()
 img_add_gray = cv2.rectangle(img_add_gray, (0, 50), (100, 100), 127, -1)
 
-img_grad = cv2.imread("res/gradient.png", cv2.IMREAD_GRAYSCALE)
-img_lena_gray = cv2.imread("res/lena.jpg", cv2.IMREAD_GRAYSCALE)
-img_lena = plt.imread("res/lena.jpg", -1)
-img_messi = plt.imread("res/messi5.jpg", -1)
+img_grad = cv2.imread("../res/gradient.png", cv2.IMREAD_GRAYSCALE)
+img_lena_gray = cv2.imread("../res/lena.jpg", cv2.IMREAD_GRAYSCALE)
+img_lena = plt.imread("../res/lena.jpg", -1)
+img_messi = plt.imread("../res/messi5.jpg", -1)
 
-img_r = plt.imread("res/red225x225.jpg", -1)
-img_g = plt.imread("res/green225x225.jpg", -1)
-img_b = plt.imread("res/blue225x225.jpg", -1)
-img_rgb = plt.imread("res/RGB_400x400.png", -1)
+img_r = plt.imread("../res/red225x225.jpg", -1)
+img_g = plt.imread("../res/green225x225.jpg", -1)
+img_b = plt.imread("../res/blue225x225.jpg", -1)
+img_rgb = plt.imread("../res/RGB_400x400.png", -1)
 
 # all images in RGB format
 images = [

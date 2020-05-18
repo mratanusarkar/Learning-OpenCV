@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread("res/messi5.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("../res/messi5.jpg", cv2.IMREAD_GRAYSCALE)
 # define kernel
 k_width = 3
 k_height = 3

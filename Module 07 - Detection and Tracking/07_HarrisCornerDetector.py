@@ -12,7 +12,7 @@ def show_image(image, winname="Image", width_size=800):
     cv2.waitKey(0)
 
 
-img = cv2.imread("res/chessboard.png")
+img = cv2.imread("../res/chessboard.png")
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 corner = cv2.cornerHarris(np.float32(img_gray), 2, 3, 0.04)

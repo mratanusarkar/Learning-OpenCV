@@ -5,7 +5,7 @@ import cv2
 #  1   : color
 #  0   : grayscale
 # -1   : loads img as it is including alpha channel
-image = cv2.imread("res/lena.jpg", -1)
+image = cv2.imread("../res/lena.jpg", -1)
 print(image)
 
 # cv2.imshow(<window name>, <img variable>)

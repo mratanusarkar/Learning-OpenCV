@@ -15,8 +15,8 @@ max_level = 6
 
 # Step 1:
 # load both the images
-apple_img = cv2.imread("res/apple.jpg")
-orange_img = cv2.imread("res/orange.jpg")
+apple_img = cv2.imread("../res/apple.jpg")
+orange_img = cv2.imread("../res/orange.jpg")
 print("apple image shape", apple_img.shape)
 print("orange image shape", orange_img.shape)
 

@@ -18,7 +18,7 @@ cv2.createTrackbar("Upper Val", "Tracking Console", 255, 255, nothing)
 
 while True:
     # read image frame
-    frame = cv2.imread("res/smarties.png")
+    frame = cv2.imread("../res/smarties.png")
 
     # convert the color image to HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)

@@ -22,7 +22,7 @@ def click_event(event, x, y, flags, params):
         cv2.imshow('color', color_image)
 
 
-img = cv2.imread("res/lena.jpg", -1)
+img = cv2.imread("../res/lena.jpg", -1)
 # img = np.zeros((720, 720, 3), np.uint8)
 
 points = []

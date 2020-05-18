@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("res/lena.jpg")
+img = cv2.imread("../res/lena.jpg")
 max_level = 3
 previous_level = max_level + 1     # some out of range value!
 

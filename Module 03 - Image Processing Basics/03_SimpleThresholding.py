@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("res/gradient.png", 0)
+img = cv2.imread("../res/gradient.png", 0)
 thVal = 127
 
 # applying threshold techniques available in opencv

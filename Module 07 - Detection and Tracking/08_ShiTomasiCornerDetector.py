@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread("res/pic1.png")
+img = cv2.imread("../res/pic1.png")
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 Tomasi = img.copy()

@@ -6,7 +6,7 @@ def nothing(x):
     print(x)
 
 
-img_path = "res/lena.jpg"
+img_path = "../res/lena.jpg"
 cv2.namedWindow("image")
 
 cv2.createTrackbar("B-channel", "image", 0, 1, nothing)

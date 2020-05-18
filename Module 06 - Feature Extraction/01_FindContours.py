@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # original image
-img = cv2.imread("res/opencv-logo.png")
+img = cv2.imread("../res/opencv-logo.png")
 img_copy = img.copy()
 
 # to grayscale

@@ -6,7 +6,7 @@ import numpy as np
 # A level in Laplacian Pyramid = Level in Gaussian Pyramid - Expanded version of it's lower
 # Laplacian[i] = Gaussian[i] - PyramidUp( Gaussian[i-1] )    where, i<=0 (i.e Gaussian[i] is always PyramidDown)
 
-img = cv2.imread("res/lena.jpg")
+img = cv2.imread("../res/lena.jpg")
 max_level = 3
 previous_level = -1     # some out of range value!
 

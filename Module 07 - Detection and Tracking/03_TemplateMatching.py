@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # get the image
-img = cv2.imread("res/sudoku.png")
+img = cv2.imread("../res/sudoku.png")
 img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 _, img_bin = cv2.threshold(img, 60, 225, cv2.THRESH_BINARY)
 

@@ -1,7 +1,7 @@
 import cv2
 import math
 
-cap = cv2.VideoCapture("res/Megamind.avi")
+cap = cv2.VideoCapture("../res/Megamind.avi")
 fps = math.floor(cap.get(cv2.CAP_PROP_FPS))    # in ms
 
 fourcc = cv2.VideoWriter_fourcc(*'MP4V')

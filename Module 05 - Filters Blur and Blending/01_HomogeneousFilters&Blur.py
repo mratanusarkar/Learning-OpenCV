@@ -2,12 +2,12 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img_paths = ["res/opencv-logo.png",
-             "res/lena.jpg",
-             "res/lena_with_gaussian_noise.jpg",
-             "res/salt_and_pepper_noise_img.png",
-             "res/salt_and_pepper_noise_zebra.png",
-             "res/shapes.jpg"]
+img_paths = ["../res/opencv-logo.png",
+             "../res/lena.jpg",
+             "../res/lena_with_gaussian_noise.jpg",
+             "../res/salt_and_pepper_noise_img.png",
+             "../res/salt_and_pepper_noise_zebra.png",
+             "../res/shapes.jpg"]
 
 
 def apply_homogeneous_low_pass_filters(img_path, kernel_width, kernel_height):

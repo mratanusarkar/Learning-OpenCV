@@ -1,7 +1,7 @@
 import cv2
 import datetime
 
-cap = cv2.VideoCapture("res/Megamind.avi")
+cap = cv2.VideoCapture("../res/Megamind.avi")
 
 print(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 print(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))

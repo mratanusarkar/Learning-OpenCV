@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Note: Always try to keep foreground in white
-img = cv2.imread("res/shapes.jpg")
+img = cv2.imread("../res/shapes.jpg")
 img_RGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 _, img_bin = cv2.threshold(img_gray, 200, 255, cv2.THRESH_BINARY)

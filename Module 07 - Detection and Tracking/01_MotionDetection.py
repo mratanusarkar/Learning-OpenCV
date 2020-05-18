@@ -2,7 +2,7 @@ import cv2
 import math
 import numpy as np
 
-cap = cv2.VideoCapture("res/vtest.avi")
+cap = cv2.VideoCapture("../res/vtest.avi")
 fps = 40
 
 grabbed, frame1 = cap.read()
